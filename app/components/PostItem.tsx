@@ -10,15 +10,15 @@ export const PostItem = ({ post }: Props) => {
   const {id, title, date } = post;
   const formattedDate = formatDate(date);
   return (
-    <li className="mt-4 text-2xl dark:text-white/90" key={id}>
+    <li className="mt-4 text-2xl text-black/80 dark:text-white/90" key={id}>
       <Link 
-        className="underline hover:text-black/70 dark:hover:text-white"
+        className="underline text-black/80 hover:text-black/70 dark:text-white/90 dark:hover:text-white"
         href={`/posts/${id}`}
       >
         {title}
       </Link>
       <br />
-      <p className="text-sm mt-1 flex items-center">
+      <p className="text-sm mt-1 flex items-center text-black/80 dark:text-white/90">
         <CalendarIcon width={15} height={15}/>
         &nbsp;{formattedDate}
       </p>

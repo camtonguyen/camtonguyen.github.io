@@ -18,13 +18,13 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="flex flex-row justify-center sm-justify-evenly align-middle gap-4">
-          <Link href="https://github.com/camtonguyen" className="no-undeline opacity-80 hover:opacity-100">
+          <Link target="_blank" rel="noopener" href="https://github.com/camtonguyen" className="no-undeline opacity-80 hover:opacity-100">
             <GitHubLogoIcon color="white" width="25" height="25"/>
           </Link>
-          <Link href="https://www.linkedin.com/in/camtonguyen/" className="no-undeline opacity-80 hover:opacity-100">
+          <Link target="_blank" rel="noopener" href="https://www.linkedin.com/in/camtonguyen/" className="no-undeline opacity-80 hover:opacity-100">
             <LinkedInLogoIcon color="white" width="25" height="25"/>
           </Link>
-          <Link href="https://designtocode.xyz/" className="no-undeline opacity-80 hover:opacity-100">
+          <Link target="_blank" rel="noopener" href="https://designtocode.xyz/" className="no-undeline opacity-80 hover:opacity-100">
             <ExternalLinkIcon color="white" width="25" height="25"/>
           </Link>
           <ThemeSwitcher/>
