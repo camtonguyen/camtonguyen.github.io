@@ -8,7 +8,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'tips & stuff for lazy fellows',
+  title: 'tips & stuff for lazy folks',
   description:
     'Dive into my lazy world. Uncover the tips, tricks, knowledge, all in one place.',
 };

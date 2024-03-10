@@ -1,5 +1,5 @@
 ---
-title: 'Level up your job search with a resume cheat sheet'
+title: 'Level Up Your Job Search With a Resume Cheat Sheet'
 date: '2024-03-10'
 ---
 
