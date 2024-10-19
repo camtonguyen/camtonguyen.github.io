@@ -3,7 +3,7 @@ title: 'Level Up Your Job Search With a Resume Cheat Sheet'
 date: '2024-03-10'
 ---
 
-✅ Use pre-designed templates. (Don't spend too much time designing a resume if you're not a designer; there are always some outstanding templates 😎 out there).
+✅ Use pre-designed templates. (Don't spend too much time designing a resume if you're not a designer; there are always some outstanding templates out there).
 
 ✅ Keep your resume to one page. (Focus only on the highlights).
 
