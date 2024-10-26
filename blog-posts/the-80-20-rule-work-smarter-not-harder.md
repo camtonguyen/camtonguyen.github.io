@@ -3,7 +3,7 @@ title: 'The 80/20 Rule: Work Smarter, Not Harder'
 date: '2024-10-19'
 ---
 
-Have you ever felt like you're working your butt off but not getting the results you want? Well, grab a comfy seat and a beverage of your choice, because we're about to dive into the effective world of the 80/20 rule. It's like a cheat code for life, but don't worry – no gaming skills required!
+Have you ever felt like you're [working your butt off](https://www.ldoceonline.com/dictionary/work-your-butt-ass-arse-off) but not getting the results you want? Well, grab a comfy seat and a beverage of your choice, because we're about to dive into the effective world of the 80/20 rule. It's like a cheat code for life, but don't worry – no gaming skills required!
 
 ### What's This 80/20?
 
@@ -34,7 +34,7 @@ For instance, if you're in sales, you might discover that:
 - Calling your top 20% of clients brings in 80% of your revenue.
 - Focusing on your 2-3 best-selling products accounts for most of your sales.
 
-[Action step]: List your tasks for the week and star the ones that truly move the needle. These are your high-impact tasks – the Avengers of your to-do list!
+[Action step]: List your tasks for the week and start the ones that truly [move the needle](https://idioms.thefreedictionary.com/moved+the+needle). These are your high-impact tasks – the Avengers of your to-do list!
 
 ![Weekly planner](https://images.pexels.com/photos/7439133/pexels-photo-7439133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
@@ -49,7 +49,7 @@ If you're a programmer, this might look like:
 
 [Action step]: Choose one high-impact skill and practice it for 20 minutes every day for a week. Make it become your habit and then you'll be a pro before you know it!
 
-![Practice makes perfect](https://nursing.uworld.com/wp-content/uploads/2021/01/Feature-Image-Practice-Questions-More-Important-Than-Ever-for-NCLEX-Success-1024x536.jpg)
+![Practice makes perfect](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9Vv4x97yww1w-G2WKsF-fg_8F-tK6SThjF2xbJPFP0rzk0DOkQmOVAdAlBl7Iru-cRs4GWJj927qeToCT4psnR3H6DXJn6KDbT-rPuK098kyEp6tx00bqJd2C1wE0yYOrSRp-XLaoiXk/s1600/Practice+Practice+Practice+%253D+Habit.jpg)
 
 #### 3. Surf the Productivity Wave
 
@@ -113,7 +113,7 @@ If you're a small business owner:
 
 #### 8. Learn Like You're Picking Toppings for a Pizza
 
-When learning new skills, start with the most important stuff first. You wouldn't put anchovies on before the cheese, would you? (If you would, we need to talk. 😤)
+When learning new skills, start with the most important stuff first. You wouldn't put beef or onion on before the cheese, would you? (If you would, we need to talk. 😤)
 For aspiring chefs:
 
 - Master knife skills and basic cooking methods before trying complex recipes.
@@ -128,7 +128,7 @@ For aspiring chefs:
 ### The Designer's Palette: 80/20 in Graphic Design
 
 Are you a pixel pusher or color wizard?
-Let's see how the 80/20 rule can make your designs pop faster than you can say "kerning."
+Let's see how the 80/20 rule can make your designs pop faster than you can say "[kerning](https://en.wikipedia.org/wiki/Kerning)".
 
 In the world of graphic design:
 
@@ -159,7 +159,7 @@ In the hybrid zone of design and development:
 - For web designers, mastering the basics of HTML and CSS (20% of front-end skills) can help you create designs that are 80% easier to implement.
 - For developers, understanding key design principles like white space and typography can make your UI 80% more user-friendly with just 20% more effort.
 
-[Action step]: If you're a designer, try coding a simple landing page. If you're a developer, sketch out a user interface on paper. Step into each other's shoes!
+[Action step]: If you're a designer, try coding a simple landing page. If you're a developer, sketch out a user interface on paper. [Step into each other's shoes](https://dictionary.cambridge.org/dictionary/english/step-into-shoes)!
 
 ![Design or Code](https://studio.uxpincdn.com/studio/wp-content/uploads/2023/02/Code-to-Design-vs-Design-to-Code.png.webp)
 
@@ -173,6 +173,6 @@ Before you start using the 80/20 rule, keep these things in mind:
 
 ### Wrapping It Up
 
-> The 80/20 rule isn't about being perfect; it's about being smart with your time and energy. It's the difference between being a productivity ninja and a busy hamster on a wheel. So, are you ready to work smarter, not harder? Of course you are! Now go out there and 80/20 the heck out of your life. Your future self will thank you!
+The 80/20 rule isn't about being perfect; it's about being smart with your time and energy. It's the difference between being a productivity ninja and a busy hamster on a wheel. So, are you ready to work smarter, not harder? Of course you are! Now go out there and 80/20 the heck out of your life. Your future self will thank you!
 
-> Remember: Life's too short to be busy all the time. Work smart, have fun, and may the 80/20 be with you! 🚀✨
+Remember: Life's too short to be busy all the time. Work smart, have fun, and may the 80/20 be with you! 🚀✨
