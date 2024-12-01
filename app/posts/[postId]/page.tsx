@@ -3,6 +3,9 @@ import { getPostData, getSortedPostsData } from '@/lib/posts';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+type Params = Promise<{ postId: string }>;
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
+
 export async function generateStaticParams() {
   const posts = await getSortedPostsData();
 
@@ -11,11 +14,14 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata(props: { params: { postId: string } }) {
-  const { params } = props;
-  const { postId } = await params;
+export async function generateMetadata(props: {
+  params: Params;
+  searchParams: SearchParams;
+}) {
+  const params = await props.params;
+  const postId = params.postId;
 
-  const posts = await getSortedPostsData();
+  const posts = getSortedPostsData();
 
   const post = posts.find((post) => post.id === postId);
 
@@ -30,11 +36,14 @@ export async function generateMetadata(props: { params: { postId: string } }) {
   };
 }
 
-export default async function Post(props: { params: { postId: string } }) {
-  const { params } = props;
-  const { postId } = await params;
+export default async function Post(props: {
+  params: Params;
+  searchParams: SearchParams;
+}) {
+  const params = await props.params;
+  const postId = params.postId;
 
-  const posts = await getSortedPostsData();
+  const posts = getSortedPostsData();
 
   if (!posts.find((post) => post.id === postId)) notFound();
 
