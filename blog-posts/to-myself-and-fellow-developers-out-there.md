@@ -63,8 +63,8 @@ You have options:
 
 - Build something of your own.
 - Join a mission you believe in.
-- Transform your current role
-- Or simply admit that trading passion for comfort is your choice
+- Transform your current role.
+- Or simply admit that trading passion for comfort is your choice.
 
 But whatever you do:
 
