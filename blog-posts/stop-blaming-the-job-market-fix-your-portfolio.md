@@ -18,9 +18,9 @@ You might be thinking, "What does a non-designer know about this?" Fair question
 While many designers obsess over interview questions and company research, here's what really matters:
 
 - 80% of your success comes from your portfolio and case study presentation.
-- 20% comes from everything else (Want to learn more about the 80/20 principle? Check out my related post [here](https://camtonguyen.github.io/posts/the-80-20-rule-work-smarter-not-harder).
+- 20% comes from everything else (Want to learn more about the 80/20 principle? Check out my related post [here](/posts/the-80-20-rule-work-smarter-not-harder).
 
-### Creating an Portfolio that anyone wants to hire you
+### Creating a Portfolio that anyone wants to hire you
 
 **1. Find Your Niche**
 
