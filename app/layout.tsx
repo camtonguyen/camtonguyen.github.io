@@ -8,9 +8,12 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'tips & stuff for lazy folks',
+  title: 'brain dumps & bright ideas',
   description:
-    'Dive into my lazy world. Uncover the tips, tricks, knowledge, all in one place.',
+    'My collection of random fascinations, from code to stuff. Short guides for the curious but easily distracted.',
+  icons: {
+    icon: '/images/icon.png'  // references /public/icon.png
+  },
 };
 
 export default function RootLayout({
