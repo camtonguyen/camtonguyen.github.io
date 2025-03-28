@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     'My collection of random fascinations, from code to stuff. Short guides for the curious but easily distracted.',
   icons: {
-    icon: '/images/icon.png'  // references /public/icon.png
+    icon: '/images/icon.png', // references /public/icon.png
   },
 };
 
@@ -22,13 +22,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.className} grid grid-rows-[1fr_auto] h-[100vh] m-0 dark:bg-black`}
-      >
-        <div className="wrapper flex-1 h-[95%] my-0 mx-auto w-full">
-          <Navbar />
-          <ProfilePicture />
+    <html lang='en'>
+      <body className={`${inter.className} bg-black text-white`}>
+        <div className='wrapper flex-1 h-[95%] my-0 mx-auto w-full'>
           {children}
         </div>
         <Footer />
