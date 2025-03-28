@@ -21,7 +21,7 @@ export async function generateMetadata(props: {
   const params = await props.params;
   const postId = params.postId;
 
-  const posts = getSortedPostsData();
+  const posts = await getSortedPostsData();
 
   const post = posts.find((post) => post.id === postId);
 
@@ -43,7 +43,7 @@ export default async function Post(props: {
   const params = await props.params;
   const postId = params.postId;
 
-  const posts = getSortedPostsData();
+  const posts = await getSortedPostsData();
 
   if (!posts.find((post) => post.id === postId)) notFound();
 
@@ -52,13 +52,18 @@ export default async function Post(props: {
   const publishedDate = formatDate(date);
 
   return (
-    <main className='px-6 prose prose-xl prose-slate dark:prose-invert mx-auto'>
-      <h1 className='text-3xl mt-4 mb-0'>{title}</h1>
-      <p className='mt-2 text-sm'>{publishedDate}</p>
+    <main className='my-5 max-w-[50rem] mx-auto prose-xl bg-zinc-900/80 border border-zinc-800 rounded-3xl py-6 px-8 backdrop-blur-sm'>
+      <h1 className='text-3xl mt-4 mb-0 text-zinc-200'>{title}</h1>
+      <p className='mt-2 text-sm text-zinc-600'>{publishedDate}</p>
       <article>
-        <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        <p>
-          <Link href='/'>← Back to home</Link>
+        <section
+          className='text-zinc-200 text-[1.15rem]'
+          dangerouslySetInnerHTML={{ __html: contentHtml }}
+        />
+        <p className='text-sm text-right'>
+          <Link className='text-zinc-300' href='/'>
+            ← Back to home
+          </Link>
         </p>
       </article>
     </main>
