@@ -15,7 +15,7 @@ export function BlinkingCursor() {
 
   return (
     <span
-      className='inline-block w-1 h-4 bg-white ml-[2px] relative top-[2px]'
+      className='inline-block w-1 h-4 bg-black dark:bg-white ml-[2px] relative top-[2px]'
       style={{ visibility: visible ? 'visible' : 'hidden' }}
     />
   );

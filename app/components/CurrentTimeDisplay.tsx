@@ -41,9 +41,9 @@ const CurrentTimeDisplay = () => {
     <>
       {/* Only render when we have a time (client-side only) */}
       {currentTime ? (
-        <span className='text-red-200'>{formatTime(currentTime)}</span>
+        <span className='text-red-400 dark:text-red-200'>{formatTime(currentTime)}</span>
       ) : (
-        <span className='text-red-200'>Loading...</span>
+        <span className='text-red-400 dark:text-red-200'>Loading...</span>
       )}
     </>
   );

@@ -40,7 +40,7 @@ export function ToolStack() {
   return (
     <div className='relative w-full mx-auto max-w-md md:max-w-lg'>
       <div className='columns-3 gap-3'>
-        <div className='mb-3 flex flex-col gap-2 opacity-20'>
+        <div className='mb-3 flex flex-col gap-2 opacity-20 dark:opacity-30'>
           <p className='text-3xl font-bold leading-none'>#</p>
           <p className='text-3xl font-bold leading-none'>TOOL</p>
           <p className='text-3xl font-bold leading-none'>STACK</p>
@@ -57,7 +57,7 @@ export function ToolStack() {
 
 function ToolItem({ icon, name }: Tool) {
   return (
-    <div className='rounded-2xl bg-zinc-800 p-4 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center'>
+    <div className='rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-zinc-100/80 dark:bg-zinc-800 p-4 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col items-center'>
       <div className='mb-2 flex items-center justify-center'>
         <Image
           src={icon}

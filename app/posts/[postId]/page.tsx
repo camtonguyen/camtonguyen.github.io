@@ -52,20 +52,27 @@ export default async function Post(props: {
   const publishedDate = formatDate(date);
 
   return (
-    <main className='my-5 max-w-[50rem] mx-auto prose-xl bg-zinc-900/80 border border-zinc-800 rounded-3xl py-6 px-8 backdrop-blur-sm'>
-      <h1 className='text-3xl mt-4 mb-0 text-zinc-200'>{title}</h1>
-      <p className='mt-2 text-sm text-zinc-600'>{publishedDate}</p>
+    <div className='my-5 max-w-[50rem] mx-auto prose-xl shadow-md dark:bg-zinc-900/80 bg-white/80 border dark:border-zinc-800 border-zinc-200 rounded-3xl py-6 px-8 backdrop-blur-sm'>
+      <h1 className='text-3xl mt-4 mb-0 text-zinc-800 dark:text-zinc-200'>
+        {title}
+      </h1>
+      <p className='mt-2 text-sm text-zinc-500 dark:text-zinc-600'>
+        {publishedDate}
+      </p>
       <article>
         <section
-          className='text-zinc-200 text-[1.15rem]'
+          className='text-zinc-700 dark:text-zinc-200 text-[1.15rem]'
           dangerouslySetInnerHTML={{ __html: contentHtml }}
         />
         <p className='text-sm text-right'>
-          <Link className='text-zinc-300' href='/'>
+          <Link
+            className='text-zinc-600 hover:text-zinc-800 dark:text-zinc-300 dark:hover:text-zinc-100'
+            href='/'
+          >
             ← Back to home
           </Link>
         </p>
       </article>
-    </main>
+    </div>
   );
 }

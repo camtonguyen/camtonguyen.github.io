@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { Footer } from './components/Footer';
-import { Navbar } from './components/Navbar';
-import { ProfilePicture } from './components/ProfilePicture';
+import ThemeSwitcher from './components/ThemeSwitcher';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -22,11 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className={`${inter.className} bg-black text-white`}>
-        <div className='wrapper flex-1 h-[95%] my-0 mx-auto w-full'>
+    <html lang='en' className='dark'>
+      <body
+        className={`${inter.className} bg-white dark:bg-black text-black dark:text-white`}
+      >
+        <main className='wrapper flex-1 overflow-x-hidden my-0 mx-auto w-full'>
           {children}
-        </div>
+        </main>
+        <ThemeSwitcher />
         <Footer />
       </body>
     </html>

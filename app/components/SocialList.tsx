@@ -41,12 +41,12 @@ export function SocialList() {
             <a
               href={link.href}
               target='_blank'
-              className='bg-zinc-900 border group border-zinc-800 rounded-xl p-3 flex items-center justify-center hover:bg-zinc-800 transition-colors'
+              className='bg-zinc-100 dark:bg-zinc-900 border group border-zinc-200 dark:border-zinc-800 rounded-xl p-3 flex items-center justify-center hover:bg-zinc-200 dark:hover:bg-zinc-800 transition-colors'
             >
-              <span className='absolute w-[min-content] left-0 -top-4 origin-right flex max-sm:group-hover:hidden opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 items-center justify-center bg-white dark:bg-dark-4 dark:text-white transition-all duration-500 ease-in-out  text-black font-bold rounded-xl px-2 text-xs whitespace-nowrap z-20'>
+              <span className='absolute w-[min-content] left-0 -top-4 origin-right flex max-sm:group-hover:hidden opacity-0 translate-y-5 group-hover:translate-y-0 group-hover:opacity-100 items-center justify-center dark:bg-white bg-zinc-900 dark:text-zinc-900 text-zinc-100 transition-all duration-500 ease-in-out font-bold rounded-xl px-2 text-xs whitespace-nowrap z-20'>
                 {link.label}
               </span>
-              <link.icon className='w-6 h-6' />
+              <link.icon className='w-6 h-6 text-zinc-900 dark:text-zinc-100' />
             </a>
           </li>
         ))}
