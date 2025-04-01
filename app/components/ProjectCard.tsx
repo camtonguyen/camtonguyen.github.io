@@ -6,8 +6,8 @@ interface ProjectCardProps {
 
 export function ProjectCard({
   title,
-  bgColor = 'bg-zinc-800',
-  textColor = 'text-white',
+  bgColor = 'bg-zinc-100/80 dark:bg-zinc-800',
+  textColor = 'text-zinc-600 dark:text-white',
 }: ProjectCardProps) {
   return (
     <div className={`${bgColor} rounded-2xl p-4 relative overflow-hidden`}>

@@ -8,6 +8,7 @@ import CurrentTimeDisplay from './CurrentTimeDisplay';
 import { TypingEffect } from './TypingEffect';
 import { SocialList } from './SocialList';
 import { ToolStack } from './ToolStack';
+
 export {
   Footer,
   ProjectCard,
