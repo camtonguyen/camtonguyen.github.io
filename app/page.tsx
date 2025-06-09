@@ -72,18 +72,12 @@ export default function Home() {
         <div className='flex flex-col gap-4 max-lg:order-3'>
           <SocialList />
 
-          <div className='hidden lg:flex lg:flex-col lg:gap-4'>
+          <div className='flex lg:flex-col lg:gap-4'>
             <ProjectCard
-              title='PROJECT sss.'
-              bgColor='bg-purple-100 dark:bg-purple-200'
-              textColor='text-black'
+              title='Side Projects'
+              bgColor='bg-zinc-100/80 dark:bg-zinc-900/80 border border-zinc-200 dark:border-zinc-800 rounded-3xl p-6 backdrop-blur-sm transition-colors duration-300'
+              textColor='opacity-20'
             />
-
-            <div className='bg-zinc-100/80 dark:bg-zinc-900/80 flex items-center justify-center border border-zinc-200 dark:border-zinc-800 min-h-[200px] rounded-2xl overflow-hidden transition-colors duration-300'>
-              <span className='text-zinc-600 dark:text-zinc-400 text-xl opacity-50 transition-colors duration-300'>
-                I&apos;m working on it...
-              </span>
-            </div>
           </div>
           <ToolStack />
         </div>

@@ -2,9 +2,10 @@ export function SkillsPanel() {
   const skills = {
     Frontend: [
       'React',
-      'NextJS',
+      'Next.js',
       'Angular',
-      'Svelte',
+      'Vanilla JS',
+      'GSAP',
       'SCSS',
       'TailwindCSS',
       '...',

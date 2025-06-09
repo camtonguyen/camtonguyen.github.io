@@ -109,7 +109,7 @@ If you're a small business owner:
 
 [Action step]: List your top 3 strengths and weaknesses. How can you maximize the first and minimize the impact of the second?
 
-![Strengths & weaknesses](https://oysterlink.com/wp-content/uploads/2024/01/strengths_vs_weaknesses_job_interview-1024x512.png)
+![Strengths & weaknesses](https://cdn-blog.novoresume.com/articles/what-are-your-strengths-and-weaknesses-interview-questions/strengths-and-weaknesses.png)
 
 #### 8. Learn Like You're Picking Toppings for a Pizza
 
@@ -149,7 +149,7 @@ In the land of loops and logic:
 
 [Action step]: Review your git commits from the last month. Which files or functions do you modify most often? These might be your 20% hotspots.
 
-![Git commits](https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F70p4w1p3bp58z9pwqaic.png)
+![Git commits](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.imgur.com%2FRiqCgLk.png)
 
 ### When Design Meets Development
 
