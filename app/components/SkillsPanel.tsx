@@ -8,11 +8,19 @@ export function SkillsPanel() {
       'GSAP',
       'SCSS',
       'TailwindCSS',
+      'TypeScript',
       '...',
     ],
-    Backend: ['Node.js', 'Express.js', 'tRPC'],
+    Backend: [
+      'Node.js',
+      'Express.js',
+      'Headless CMS',
+      'RESTful API',
+      'GraphQL',
+      'tRPC',
+    ],
     'DB & Services': ['PostgreSQL', 'Supabase', 'Prisma ORM', 'MongoDB'],
-    'Currrently Learning': ['Nest.js', 'Python'],
+    'Currrently Learning': ['Python'],
   };
 
   return (

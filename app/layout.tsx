@@ -7,9 +7,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'brain dumps & bright ideas',
-  description:
-    'My collection of random fascinations, from code to stuff. Short guides for the curious but easily distracted.',
+  title: 'frontend dev',
+  description: 'My code stack and projects',
   icons: {
     icon: '/images/icon.png', // references /public/icon.png
   },

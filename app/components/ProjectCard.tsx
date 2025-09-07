@@ -52,6 +52,13 @@ export function ProjectCard({
       url: 'https://controla.com.vn',
       techstack: 'PHP, Laravel, MySQL, Pug.js, SCSS, JavaScript',
     },
+    {
+      id: '3',
+      img: '/images/aiblog-site.webp',
+      alt: 'Slide 3',
+      url: 'https://strapi-cms-frontend-mauve.vercel.app',
+      techstack: 'React Router, Tailwind CSS, TypeScript, GraphQL, Strapi',
+    },
   ];
   return (
     <div className={`${bgColor} rounded-2xl p-4 relative overflow-hidden`}>
