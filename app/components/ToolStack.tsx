@@ -12,6 +12,10 @@ export function ToolStack() {
       icon: '/images/vscode.png',
     },
     {
+      name: 'Cursor',
+      icon: '/images/cursor.png',
+    },
+    {
       name: 'Terminal',
       icon: '/images/terminal.png',
     },
@@ -24,8 +28,8 @@ export function ToolStack() {
       icon: '/images/postgres.png',
     },
     {
-      name: 'Chrome',
-      icon: '/images/chrome.png',
+      name: 'Chromium',
+      icon: '/images/chromium.png',
     },
     {
       name: 'Insomnia',
