@@ -11,7 +11,7 @@ export function SkillsPanel() {
       'TypeScript',
       '...',
     ],
-    Backend: [
+    'Backend & APIs': [
       'Node.js',
       'Express.js',
       'Headless CMS',

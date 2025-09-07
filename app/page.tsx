@@ -42,7 +42,7 @@ export default function Home() {
                 />
               </div>
               <p className='text-zinc-700 dark:text-zinc-300 text-sm transition-colors duration-300'>
-                👋🏻 I&apos;m a frontend dev & ui /ux junkie based in HCM city -
+                👋🏻 I&apos;m a frontend dev & ui / ux junkie based in HCM city -
                 Vietnam.
               </p>
             </div>
@@ -63,7 +63,7 @@ export default function Home() {
 
           {/* Daily Blogs Section */}
           <div className='bg-zinc-100/80 dark:bg-zinc-900/80 border border-zinc-200 dark:border-zinc-800 rounded-3xl p-6 backdrop-blur-sm transition-colors duration-300'>
-            <h2 className='text-xl font-bold mb-4 opacity-30'>DAILY BLOGS</h2>
+            <h2 className='text-xl font-bold mb-4 opacity-30'>DAILY POSTS</h2>
             <Posts />
           </div>
         </div>
