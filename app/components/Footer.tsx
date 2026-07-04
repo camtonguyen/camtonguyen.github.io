@@ -1,11 +1,16 @@
-export const Footer = () => {
+"use client";
+
+import React from 'react';
+
+export default function Footer() {
   return (
-    <footer className='p-2 mt-auto bottom-0 w-full text-slate-400'>
-      <div className='mx-auto text-center pt-2'>
-        <p className='text-xs'>
-          Copyright &copy; {new Date().getFullYear()} - Created by @camto
-        </p>
+    <div className='bg-black px-5 lg:px-28 py-3 lg:py-6 flex items-center justify-between mt-16'>
+      <div className='font-bold text-white text-xl'>Cam To.</div>
+
+      <div className='text-white lg:font-semibold lg:text-sm font-normal text-[10px] text-right lg:space-y-3'>
+        <p>© 2026 All rights reserved.</p>
+        <p>Made by Cam To</p>
       </div>
-    </footer>
-  );
-};
+    </div>
+  )
+}
