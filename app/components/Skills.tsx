@@ -2,11 +2,10 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaJava, FaGitAlt } from "react-icons/fa";
+import { FaJs, FaReact, FaNodeJs, FaJava, FaPhp } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiMysql } from "react-icons/si";
+import { SiMysql, SiMongodb } from "react-icons/si";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { CgFigma } from "react-icons/cg";
 import Image from "next/image";
 
 export default function Skills() {
@@ -17,10 +16,10 @@ export default function Skills() {
     { id: 4, name: "Next.js", icon: <RiNextjsFill size={50} /> },
     { id: 5, name: "Tailwind", icon: <RiTailwindCssFill size={50} /> },
     { id: 6, name: "Java", icon: <FaJava size={50} /> },
-    { id: 7, name: "MySQL", icon: <SiMysql size={50} /> },
+    { id: 9, name: "PHP", icon: <FaPhp size={50} /> },
     { id: 8, name: "Node.js", icon: <FaNodeJs size={50} /> },
-    { id: 9, name: "Git", icon: <FaGitAlt size={50} /> },
-    { id: 10, name: "Figma", icon: <CgFigma size={50} /> },
+    { id: 7, name: "MySQL", icon: <SiMysql size={50} /> },
+    { id: 10, name: "MongoDB", icon: <SiMongodb size={50} /> },
   ]);
 
   const [experiences] = useState([
