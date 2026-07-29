@@ -5,29 +5,24 @@ import { TbExternalLink } from "react-icons/tb";
 import { FaCode, FaArrowRight } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import Image from "next/image";
+import { useLanguage } from "../context/LanguageContext";
 
-const projects = [
-  {
-    id: 1,
-    title: "Control A",
-    description: "Laravel, MySQL, Bootstrap, Vanilla JS, Pug.js.",
-    image: "/assets/project-1.png",
-    link: "https://controla.com.vn/"
-  },
-  {
-    id: 2,
-    title: "Hoang Vuong Packaging",
-    description: "Laravel, SQL Server, Bootstrap, React.js, Vanilla JS.",
-    image: "/assets/project-2.png",
-    link: "https://baobigiay.vn/"
-  }
-];
+const projectAssets: Record<number, { image: string; link: string }> = {
+  1: { image: "/assets/project-1.png", link: "https://controla.com.vn/" },
+  2: { image: "/assets/project-2.png", link: "https://baobigiay.vn/" },
+};
 
 export default function Projects() {
+  const { t } = useLanguage();
+  const projects = t.projects.items.map((item) => ({
+    ...item,
+    ...projectAssets[item.id],
+  }));
+
   return (
     <div className="bg-black px-5 lg:px-28 py-8 my-8 lg:py-16 lg:my-16" id="projects">
       <h2 className="text-2xl lg:text-4xl text-center text-white">
-        My <span className="font-extrabold">Side Projects</span>
+        {t.projects.headingPrefix} <span className="font-extrabold">{t.projects.headingBold}</span>
       </h2>
 
       <div className="lg:mt-16 mt-8 lg:space-y-16 space-y-8 lg:pb-6 pb-3">
@@ -59,7 +54,7 @@ export default function Projects() {
               <div className="font-light text-sm/6 lg:text-base text-[#71717A] flex items-start gap-2">
                 <FaCode className="mt-1 flex-shrink-0 text-white" />
                 <p>
-                  <span className="font-semibold text-white">Techstack: </span>
+                  <span className="font-semibold text-white">{t.projects.techstackLabel}</span>
                   {project.description}
                 </p>
               </div>
@@ -90,7 +85,7 @@ export default function Projects() {
           }}
           className="bg-white text-black font-semibold px-8 py-3 rounded hover:bg-gray-200 transition-colors flex items-center gap-2"
         >
-          Connect to see more <FaArrowRight />
+          {t.projects.connectButton} <FaArrowRight />
         </button>
       </motion.div>
     </div>

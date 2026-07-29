@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        sora:["Sora", 'sans-serif']
+        sora:["var(--font-sora)", 'Sora', 'sans-serif']
       },
       colors: {
         border: "hsl(var(--border))",

@@ -4,8 +4,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function HomeHero() {
+  const { t, language } = useLanguage();
+
+  const typeSequence = t.hero.typeSequence.flatMap((phrase) => [phrase, 1000]);
+
   return (
     <div className="mt-20" id="about">
       <div className="flex justify-between py-10 items-center px-5 lg:px-28 lg:flex-row flex-col-reverse">
@@ -31,31 +36,25 @@ export default function HomeHero() {
             }}
           >
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }} className="text-black">
-              Hello, <TypeAnimation
-                sequence={[
-                  'I am Cam To',
-                  1000,
-                  'I build Websites',
-                  1000,
-                  'I build Web apps',
-                  1000,
-                ]}
+              {t.hero.greeting}<TypeAnimation
+                key={language}
+                sequence={typeSequence}
                 speed={10}
                 style={{ fontWeight:600 }}
                 repeat={Infinity}
               />
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }} className="text-black">
-              <span className="font-extrabold">Web</span>{" "}
+              <span className="font-extrabold">{t.hero.web}</span>{" "}
               <span
                 className="text-white font-extrabold"
                 style={{ WebkitTextStroke: "1px black" }}
               >
-                Developer
+                {t.hero.developer}
               </span>
             </motion.h2>
             <motion.h2 variants={{ hidden: { opacity: 0, y: 10 }, visible: { opacity: 1, y: 0 } }} className="text-black">
-              Based In <span className="font-extrabold">Vietnam.</span>
+              {t.hero.basedIn} <span className="font-extrabold">{t.hero.country}</span>
             </motion.h2>
           </motion.div>
 
@@ -65,7 +64,7 @@ export default function HomeHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 1 }}
           >
-            👋🏻 I&apos;m a web dev & ui / ux junkie based in HCM city - Vietnam. I’m focused on building innovative solutions and continuously expanding my skills. My goal is to grow as a developer and contribute to impactful projects in the tech industry.
+            {t.hero.description}
           </motion.p>
 
 

@@ -6,10 +6,12 @@ import { BiLogoGmail } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
 import { IoLogoLinkedin } from 'react-icons/io5';
 import { FaPhone } from "react-icons/fa6";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Contact() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const { t } = useLanguage();
 
   return (
     <motion.div
@@ -27,11 +29,11 @@ export default function Contact() {
           className='lg:w-1/2'
         >
           <div className='font-extrabold text-2xl lg:text-5xl mt-5 lg:mt-0 space-y-1 lg:space-y-3'>
-            <h2 className="text-black">Let&apos;s <span className='text-white' style={{ WebkitTextStroke: '1px black' }}>talk</span> for</h2>
-            <h2 className="text-black">Something special</h2>
+            <h2 className="text-black">{t.contact.headingLead} <span className='text-white' style={{ WebkitTextStroke: '1px black' }}>{t.contact.headingTalk}</span> {t.contact.headingTail}</h2>
+            <h2 className="text-black">{t.contact.headingLine2}</h2>
           </div>
 
-          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>{t.contact.description}</p>
 
           <motion.div
             className="flex items-center justify-center gap-x-5 mt-5 lg:mt-10"

@@ -1,0 +1,156 @@
+{
+  "en": {
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "contact": "Contact",
+      "resume": "Resume"
+    },
+    "hero": {
+      "greeting": "Hello, ",
+      "typeSequence": ["I am Cam To", "I build Websites", "I build Web apps"],
+      "web": "Web",
+      "developer": "Developer",
+      "basedIn": "Based In",
+      "country": "Vietnam.",
+      "description": "👋🏻 I build web, love UI/UX, based in Ho Chi Minh City. I like clean code, products that work, and learning something new every day."
+    },
+    "projects": {
+      "headingPrefix": "My",
+      "headingBold": "Side Projects",
+      "techstackLabel": "Techstack: ",
+      "connectButton": "Connect to see more",
+      "items": [
+        {
+          "id": 1,
+          "title": "Control A",
+          "description": "Laravel, MySQL, Bootstrap, Vanilla JS, Pug.js."
+        },
+        {
+          "id": 2,
+          "title": "Hoang Vuong Packaging",
+          "description": "Laravel, SQL Server, Bootstrap, React.js, Vanilla JS."
+        }
+      ]
+    },
+    "skills": {
+      "headingPrefix": "My",
+      "headingBold": "Skills",
+      "experienceHeadingPrefix": "My",
+      "experienceHeadingBold": "Experience",
+      "roleAt": "at",
+      "experiences": [
+        {
+          "id": 1,
+          "company": "Niteco Vietnam",
+          "role": "Frontend Developer",
+          "period": "AUG 2022 - SEP 2025",
+          "description": "Tech Stack: Next.js, React, TypeScript, Angular, Svelte, Redux, Tailwind CSS. Built a multi-brand platform for 19+ beverage brands across multiple countries. Built 100+ reusable components and the state management behind them."
+        },
+        {
+          "id": 2,
+          "company": "DFO Global Commerce",
+          "role": "Frontend Developer",
+          "period": "JUN 2020 - JUN 2022",
+          "description": "Tech Stack: JavaScript, React.js, GrapesJS, DotCMS, SCSS. Built enterprise e-commerce platforms that scale. Built a custom GrapesJS widget library so non-technical users could build sites on their own."
+        },
+        {
+          "id": 3,
+          "company": "Sutrix Solutions",
+          "role": "Frontend Developer",
+          "period": "NOV 2017 - SEP 2019",
+          "description": "Tech Stack: JavaScript, React.js, Angular, Ionic, Pug, SCSS. Built UI components and features for healthcare products and internal tools. Built a cross-platform mobile app with Ionic."
+        }
+      ]
+    },
+    "contact": {
+      "headingLead": "Let's",
+      "headingTalk": "talk",
+      "headingTail": "for",
+      "headingLine2": "Something cool",
+      "description": "I push creative limits to build experiences that are engaging, easy to use, and memorable."
+    },
+    "footer": {
+      "rights": "© 2026 All rights reserved.",
+      "madeBy": "Made by Cam To"
+    }
+  },
+  "vi": {
+    "nav": {
+      "about": "Giới thiệu",
+      "projects": "Dự án",
+      "skills": "Kỹ năng",
+      "contact": "Liên hệ",
+      "resume": "Hồ sơ"
+    },
+    "hero": {
+      "greeting": "Xin chào, ",
+      "typeSequence": ["Tôi là Cẩm Tố", "Tôi làm Website", "Tôi làm Web app"],
+      "web": "Web",
+      "developer": "Developer",
+      "basedIn": "Sống tại",
+      "country": "Việt Nam.",
+      "description": "👋🏻 Tôi làm web, mê UI/UX, sống ở TP.HCM. Tôi thích code sạch, sản phẩm dùng tốt, và học điều mới mỗi ngày."
+    },
+    "projects": {
+      "headingPrefix": "Dự án",
+      "headingBold": "Cá nhân",
+      "techstackLabel": "Công nghệ: ",
+      "connectButton": "Liên hệ để xem thêm",
+      "items": [
+        {
+          "id": 1,
+          "title": "Control A",
+          "description": "Laravel, MySQL, Bootstrap, Vanilla JS, Pug.js."
+        },
+        {
+          "id": 2,
+          "title": "Hoang Vuong Packaging",
+          "description": "Laravel, SQL Server, Bootstrap, React.js, Vanilla JS."
+        }
+      ]
+    },
+    "skills": {
+      "headingPrefix": "Kỹ năng",
+      "headingBold": "Của tôi",
+      "experienceHeadingPrefix": "Kinh nghiệm",
+      "experienceHeadingBold": "Làm việc",
+      "roleAt": "tại",
+      "experiences": [
+        {
+          "id": 1,
+          "company": "Niteco Vietnam",
+          "role": "Frontend Developer",
+          "period": "08/2022 - 09/2025",
+          "description": "Công nghệ: Next.js, React, TypeScript, Angular, Svelte, Redux, Tailwind CSS. Xây nền tảng đa thương hiệu cho 19+ nhãn đồ uống ở nhiều nước. Dựng hơn 100 component tái sử dụng, quản lý state cho hệ thống lớn."
+        },
+        {
+          "id": 2,
+          "company": "DFO Global Commerce",
+          "role": "Frontend Developer",
+          "period": "06/2020 - 06/2022",
+          "description": "Công nghệ: JavaScript, React.js, GrapesJS, DotCMS, SCSS. Làm nền tảng thương mại điện tử quy mô lớn. Xây thư viện widget GrapesJS riêng, giúp người không biết code vẫn tự dựng được website bán hàng."
+        },
+        {
+          "id": 3,
+          "company": "Sutrix Solutions",
+          "role": "Frontend Developer",
+          "period": "11/2017 - 09/2019",
+          "description": "Công nghệ: JavaScript, React.js, Angular, Ionic, Pug, SCSS. Dựng component UI và tính năng cho sản phẩm y tế và công cụ nội bộ. Làm app di động đa nền tảng bằng Ionic."
+        }
+      ]
+    },
+    "contact": {
+      "headingLead": "Cùng",
+      "headingTalk": "trò chuyện",
+      "headingTail": "về",
+      "headingLine2": "Một điều gì đó hay ho",
+      "description": "Tôi thích thử thách giới hạn sáng tạo, để làm ra trải nghiệm cuốn hút, dễ dùng và đáng nhớ."
+    },
+    "footer": {
+      "rights": "© 2026 Đã đăng ký bản quyền.",
+      "madeBy": "Làm bởi Cẩm Tố"
+    }
+  }
+}
