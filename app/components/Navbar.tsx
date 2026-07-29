@@ -5,10 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 import { SiReaddotcv } from "react-icons/si";
 import { HiOutlineMenu, HiX } from "react-icons/hi";
 import { TbDownload } from 'react-icons/tb';
+import { useLanguage } from "../context/LanguageContext";
+import { FlagEN, FlagVN } from "./FlagIcons";
 
 export default function Navbar() {
   const [hasShadow, setHasShadow] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +59,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.1 }}
             >
               <button onClick={() => scrollToSection(section)}>
-                {section.charAt(0).toUpperCase() + section.slice(1)}
+                {t.nav[section as keyof typeof t.nav]}
               </button>
               <motion.span
                 className="w-0 transition-all duration-300 group-hover:w-full h-[2px] bg-black flex"
@@ -66,17 +69,46 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <motion.a
-          href="https://drive.google.com/file/d/1vjz-0WS-rmI7wHmCNAfiGIob0z7AO48j/view?usp=sharing"
-          target="_blank"
-          className="hidden relative lg:inline-block px-4 py-2 font-medium group"
-        >
-          <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-          <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-          <span className="relative text-black group-hover:text-white flex items-center gap-x-3">
-            Resume <SiReaddotcv size={16} />
-          </span>
-        </motion.a>
+        <div className="hidden lg:flex items-center gap-x-4">
+          <div className="flex items-center gap-x-2">
+            <motion.button
+              type="button"
+              aria-label="Switch to English"
+              aria-pressed={language === "en"}
+              onClick={() => setLanguage("en")}
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.9 }}
+              className={`rounded-sm overflow-hidden border-2 transition-opacity ${language === "en" ? "border-black" : "border-transparent opacity-50"
+                }`}
+            >
+              <FlagEN className="w-6 h-4 block" />
+            </motion.button>
+            <motion.button
+              type="button"
+              aria-label="Chuyển sang Tiếng Việt"
+              aria-pressed={language === "vi"}
+              onClick={() => setLanguage("vi")}
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.9 }}
+              className={`rounded-sm overflow-hidden border-2 transition-opacity ${language === "vi" ? "border-black" : "border-transparent opacity-50"
+                }`}
+            >
+              <FlagVN className="w-6 h-4 block" />
+            </motion.button>
+          </div>
+
+          <motion.a
+            href="https://drive.google.com/file/d/1vjz-0WS-rmI7wHmCNAfiGIob0z7AO48j/view?usp=sharing"
+            target="_blank"
+            className="relative inline-block px-4 py-2 font-medium group"
+          >
+            <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+            <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+            <span className="relative text-black group-hover:text-white flex items-center gap-x-3">
+              {t.nav.resume} <SiReaddotcv size={16} />
+            </span>
+          </motion.a>
+        </div>
 
         <motion.button
           className="lg:hidden text-2xl text-black"
@@ -111,19 +143,48 @@ export default function Navbar() {
                   whileHover={{ scale: 1.1 }}
                 >
                   <button onClick={() => scrollToSection(section)}>
-                    {section.charAt(0).toUpperCase() + section.slice(1)}
+                    {t.nav[section as keyof typeof t.nav]}
                   </button>
                 </motion.li>
               ))}
+
+              <div className="flex items-center gap-x-3 mt-2">
+                <motion.button
+                  type="button"
+                  aria-label="Switch to English"
+                  aria-pressed={language === "en"}
+                  onClick={() => setLanguage("en")}
+                  whileHover={{ scale: 1.15 }}
+                  whileTap={{ scale: 0.9 }}
+                  className={`rounded-sm overflow-hidden border-2 transition-opacity ${language === "en" ? "border-black" : "border-transparent opacity-50"
+                    }`}
+                >
+                  <FlagEN className="w-8 h-5 block" />
+                </motion.button>
+                <motion.button
+                  type="button"
+                  aria-label="Chuyển sang Tiếng Việt"
+                  aria-pressed={language === "vi"}
+                  onClick={() => setLanguage("vi")}
+                  whileHover={{ scale: 1.15 }}
+                  whileTap={{ scale: 0.9 }}
+                  className={`rounded-sm overflow-hidden border-2 transition-opacity ${language === "vi" ? "border-black" : "border-transparent opacity-50"
+                    }`}
+                >
+                  <FlagVN className="w-8 h-5 block" />
+                </motion.button>
+              </div>
+
               <motion.a
-                href=""
+                href="https://drive.google.com/file/d/1vjz-0WS-rmI7wHmCNAfiGIob0z7AO48j/view?usp=sharing"
+                target="_blank"
                 className="relative inline-block px-4 py-2 font-semibold group"
                 whileHover={{ scale: 1.1 }}
               >
                 <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
                 <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
                 <span className="relative text-black group-hover:text-white flex items-center gap-x-3">
-                  Resume <TbDownload size={16} />
+                  {t.nav.resume} <TbDownload size={16} />
                 </span>
               </motion.a>
             </ul>

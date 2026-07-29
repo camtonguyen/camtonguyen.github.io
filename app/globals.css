@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+/* Sora has no Vietnamese glyph coverage, so Vietnamese text falls back to a
+   mismatched system font mid-word. Be Vietnam Pro ships full Vietnamese
+   diacritic support and is swapped in only when lang="vi". */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --font-sora: 'Sora', sans-serif;
+}
+
+html[lang='vi'] {
+  --font-sora: 'Be Vietnam Pro', sans-serif;
+}
 
 body {
   background-color: #09090b; /* Zinc 950, typical for dark mode matching */
