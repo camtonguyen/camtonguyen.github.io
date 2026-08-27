@@ -43,20 +43,27 @@
       "experiences": [
         {
           "id": 1,
+          "company": "",
+          "role": "Freelance Developer",
+          "period": "SEP 2025 - Present",
+          "description": "Tech Stack: Next.js, React, TypeScript, Node.js, PHP, Tailwind CSS. Building and shipping web and app projects for independent clients, from front-end UI to full-stack features."
+        },
+        {
+          "id": 2,
           "company": "Niteco Vietnam",
           "role": "Frontend Developer",
           "period": "AUG 2022 - SEP 2025",
           "description": "Tech Stack: Next.js, React, TypeScript, Angular, Svelte, Redux, Tailwind CSS. Built a multi-brand platform for 19+ beverage brands across multiple countries. Built 100+ reusable components and the state management behind them."
         },
         {
-          "id": 2,
+          "id": 3,
           "company": "DFO Global Commerce",
           "role": "Frontend Developer",
           "period": "JUN 2020 - JUN 2022",
           "description": "Tech Stack: JavaScript, React.js, GrapesJS, DotCMS, SCSS. Built enterprise e-commerce platforms that scale. Built a custom GrapesJS widget library so non-technical users could build sites on their own."
         },
         {
-          "id": 3,
+          "id": 4,
           "company": "Sutrix Solutions",
           "role": "Frontend Developer",
           "period": "NOV 2017 - SEP 2019",
@@ -120,20 +127,27 @@
       "experiences": [
         {
           "id": 1,
+          "company": "",
+          "role": "Freelance Developer",
+          "period": "09/2025 - Hiện tại",
+          "description": "Công nghệ: Next.js, React, TypeScript, Node.js, PHP, Tailwind CSS. Nhận và triển khai các dự án web, app cho khách hàng cá nhân, từ front-end đến full-stack."
+        },
+        {
+          "id": 2,
           "company": "Niteco Vietnam",
           "role": "Frontend Developer",
           "period": "08/2022 - 09/2025",
           "description": "Công nghệ: Next.js, React, TypeScript, Angular, Svelte, Redux, Tailwind CSS. Xây nền tảng đa thương hiệu cho 19+ nhãn đồ uống ở nhiều nước. Dựng hơn 100 component tái sử dụng, quản lý state cho hệ thống lớn."
         },
         {
-          "id": 2,
+          "id": 3,
           "company": "DFO Global Commerce",
           "role": "Frontend Developer",
           "period": "06/2020 - 06/2022",
           "description": "Công nghệ: JavaScript, React.js, GrapesJS, DotCMS, SCSS. Làm nền tảng thương mại điện tử quy mô lớn. Xây thư viện widget GrapesJS riêng, giúp người không biết code vẫn tự dựng được website bán hàng."
         },
         {
-          "id": 3,
+          "id": 4,
           "company": "Sutrix Solutions",
           "role": "Frontend Developer",
           "period": "11/2017 - 09/2019",
